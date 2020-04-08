@@ -2,7 +2,7 @@ service: sls-cognito-backend
 
 provider:
   name: aws
-  runtime: nodejs8.10
+  runtime: nodejs12.x
   profile: student1
 
 functions:
